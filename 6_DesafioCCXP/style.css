@@ -14,9 +14,9 @@ header img {
 
 #Presentation {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45% 55%;
     text-align: center;
-    margin: 0px;
+    grid-template-rows: 110px;
 }
 
 .title {
@@ -30,7 +30,7 @@ header img {
 
 .title h3 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 22px;
     
 }
 
@@ -42,15 +42,68 @@ header img {
 
 .timer {
     display: grid;
-    grid-auto-flow: column;
-    color: rgba(81, 73, 136, 1); 
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    color: rgba(81, 73, 136, 1);
 }
 
-.text-time {
-    text-align: center; 
-    grid-column: 2;
-    font-size: 25px;
-    color: rgba(227, 56, 129, 1);
+.timer div {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 30px;
 }
+
+#Presentation div h2 {
+    font-size: 28px;
+    color: rgba(227, 56, 129, 1);
+    margin-top: 5px;
+    text-align: justify;
+    margin-left: 150px;
+}
+
+#TextCard {
+    color: rgba(243, 198, 31, 1);
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+button{
+    background: rgba(81, 73, 136, 1);
+    height: 120px;
+    width: 450px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+button:hover{
+    background-color: rgba(243, 198, 31, 1);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0px 15px 20px rgba(243, 197, 31, 0.596);
+    transition-duration: 0.5s;
+}
+
+
+
+
+
 
 
